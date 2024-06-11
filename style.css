@@ -1,3 +1,27 @@
 html{
-    background-color: blueviolet;
+    background-color: white;
+     color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15;
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1 {
+  background-color: black;
+  border: hotpink;
+  font-size: calc();
+    animation: color-change 3s infinite;
 }
